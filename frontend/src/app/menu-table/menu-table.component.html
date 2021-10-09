@@ -1,0 +1,14 @@
+<table>
+    <tr>
+      <th>Menu name</th>
+      <th>Menu price</th>
+      <th>Created date</th>
+      <th>Modified date</th>
+    </tr>
+    <tr *ngFor="let menu of menu">
+      <td>{{menu.menu_name}}</td>
+      <td>{{menu.menu_price}}</td>
+      <td>{{menu.created_date}}</td>
+      <td>{{menu.modified_date}}</td>
+    </tr>
+  </table>
